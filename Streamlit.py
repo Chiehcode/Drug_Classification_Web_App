@@ -106,9 +106,14 @@ else:
 # Main Section
 
 # App Title
+# st.markdown(
+#     '<h1 style="text-align:center; color:#e9ecef; background-color:#22577a;">Drug Classification App</h1>',
+#     unsafe_allow_html=True)
+
 st.markdown(
-    '<h1 style="text-align:center; color:#e9ecef; background-color:#22577a;">Drug Classification App</h1>',
+    '<h1 style="color:##22577a;">Drug Classification App</h1>',
     unsafe_allow_html=True)
+
 
 st.write("""
 請在左方欄位以「上傳檔案」或「手動輸入」的方式鍵入特徵值，以預測 Drug Type。
