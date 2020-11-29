@@ -111,7 +111,7 @@ else:
 #     unsafe_allow_html=True)
 
 st.markdown(
-    '<h1 style="color:##22577a;">Drug Classification App</h1>',
+    '<h1 style="color:#22577a;">Drug Classification App</h1>',
     unsafe_allow_html=True)
 
 
