@@ -107,7 +107,7 @@ else:
 
 # App Title
 st.markdown(
-    '<h1">Drug Classification App</h1>',
+    '<h1>Drug Classification App</h1>',
     unsafe_allow_html=True)
 
 # st.markdown(
