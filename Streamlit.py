@@ -128,7 +128,7 @@ else:
 if st.button('下載範例格式'):
     tmp_download_link = download_link(
         sample_data, 'Sample.csv', 'Click here to download Sample Data')
-    st.sidebar.markdown(tmp_download_link, unsafe_allow_html=True)
+    st.markdown(tmp_download_link, unsafe_allow_html=True)
 
 
 # load the model
