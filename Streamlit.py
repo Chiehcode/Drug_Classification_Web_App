@@ -60,7 +60,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 # Default File
-url = "https://raw.githubusercontent.com/Chiehcode/House_Price_Web_App/main/default.csv"
+url = "https://raw.githubusercontent.com/Chiehcode/Drug_Classification_Web_App/main/Data/Default.csv"
 url_data = requests.get(url).content
 sample_data = pd.read_csv(io.StringIO(url_data.decode('utf-8')))
 
