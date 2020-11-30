@@ -91,11 +91,11 @@ else:
         cholesterol = st.sidebar.selectbox(
             'Cholesterol', ('HIGH', 'NORMAL'))
 
-        data = {'Sex': sex,
-                'Blood Pressure': blood_pressure,
-                'Cholesterol': cholesterol,
-                'Age': age,
-                'Sodium to Potassium Ratio': spr}
+        data = {'性別': sex,
+                '血壓': blood_pressure,
+                '膽固醇': cholesterol,
+                '年齡': age,
+                '鈉-鉀比': spr}
 
         features = pd.DataFrame(data, index=[0])
         return features
