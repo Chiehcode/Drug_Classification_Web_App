@@ -94,7 +94,7 @@ else:
         data = {'Sex': sex,
                 'Blood Pressure': blood_pressure,
                 'Cholesterol': cholesterol,
-                '年齡': age,
+                'Age': age,
                 'Sodium to Potassium Ratio': spr}
 
         features = pd.DataFrame(data, index=[0])
