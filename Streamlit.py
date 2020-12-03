@@ -37,24 +37,24 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # https://images.unsplash.com/photo-1493606278519-11aa9f86e40a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80
 
 
-# st.markdown(
-#     f"""
-# # <style>
-#     .main{{
-#         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-#     }}
-#     .main .block-container .markdown-text-container{{
-#         background-color: #FFFFFF;
-#     }}
-#     .fullScreenFrame{{
-#         background-color: #FFFFFF;
-#     .streamlit-button small-button primary-button {{
-#         background-color: #FFFFFF;
-#     }}
-# </style>
-# """,
-#     unsafe_allow_html=True,
-# )
+st.markdown(
+    f"""
+# <style>
+    .main{{
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    }}
+    .main .block-container .markdown-text-container{{
+        background-color: #FFFFFF;
+    }}
+    .fullScreenFrame{{
+        background-color: #FFFFFF;
+    .streamlit-button small-button primary-button {{
+        background-color: #FFFFFF;
+    }}
+</style>
+""",
+    unsafe_allow_html=True,
+)
 
 
 # ------------------------------------------------------------------------------------------
