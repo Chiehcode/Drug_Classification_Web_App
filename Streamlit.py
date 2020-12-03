@@ -27,7 +27,7 @@ def download_link(object_to_download, download_filename, download_link_text):
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://images.unsplash.com/photo-1595980944185-98d54ecb5c5b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80");
+background-image: url("https://images.unsplash.com/photo-1567427361940-521d3e67e193?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=708&q=80");
 background-size: cover;
 }
 </style>
