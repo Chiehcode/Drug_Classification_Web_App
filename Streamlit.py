@@ -39,7 +39,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.markdown(
     f"""
-# <style>
+<style>
     .main{{
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     }}
