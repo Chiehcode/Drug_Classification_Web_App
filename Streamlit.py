@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-# from pycaret.classification import *
-import pycaret
+from pycaret.classification import *
 import base64
 import io
 import requests
